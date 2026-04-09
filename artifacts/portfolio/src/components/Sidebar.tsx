@@ -8,7 +8,9 @@ export default function Sidebar() {
     <aside className="bg-sidebar border border-sidebar-border rounded-xl p-6 shadow-md flex flex-col items-center lg:w-72 lg:h-[calc(100vh-4rem)] lg:sticky lg:top-8 z-10 shrink-0">
       <div className="w-full flex lg:flex-col items-center gap-6 lg:gap-0 relative">
         <div className="w-24 h-24 lg:w-36 lg:h-36 rounded-2xl bg-card border border-border flex items-center justify-center overflow-hidden shrink-0">
-          <span className="text-4xl font-bold text-muted-foreground tracking-widest">MEM</span>
+          <span className="text-4xl font-bold text-muted-foreground tracking-widest">
+            <img src={'./'} alt={'main photo'}/>
+          </span>
         </div>
         
         <div className="flex-1 lg:flex-initial lg:w-full lg:text-center lg:mt-6">
