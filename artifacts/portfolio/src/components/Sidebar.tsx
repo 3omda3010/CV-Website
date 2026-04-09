@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Mail, Phone, MapPin, ChevronDown, ChevronUp, Linkedin, Github } from "lucide-react";
-
+import mainPhoto from '../assets/PicsArt_03-06-04.57.38.jpg'
 export default function Sidebar() {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -9,7 +9,7 @@ export default function Sidebar() {
       <div className="w-full flex lg:flex-col items-center gap-6 lg:gap-0 relative">
         <div className="w-24 h-24 lg:w-36 lg:h-36 rounded-2xl bg-card border border-border flex items-center justify-center overflow-hidden shrink-0">
           <span className="text-4xl font-bold text-muted-foreground tracking-widest">
-            <img src={'./'} alt={'main photo'}/>
+            <img src={mainPhoto} alt={'main photo'}/>
           </span>
         </div>
         
